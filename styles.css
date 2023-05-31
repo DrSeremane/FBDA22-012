@@ -1,0 +1,455 @@
+/* Reset some default style
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  color:black;;
+
+}
+
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  color:hot pink;
+  background:sky blue;
+}
+.press{
+	align-items:center;
+	font-size:70px;
+	text-decoration:none;
+	background-color:grey;
+	color:black;
+}
+    .btn {
+      background-color: grey;
+      border-color: grey;
+      font-weight: bold;
+      margin-top: 2rem;
+	  color:black;
+    }
+    .btn :hover {
+      background-color: blue;
+      border-color: black;
+    }
+
+header {
+  background-color:#666666;
+  padding: 20px;
+  
+}
+.brand{
+	text-decoration:none;
+	height:60px;
+	color:white;
+}
+nav ul {
+  list-style: none;
+  text-align:center;
+   font-weight: 50px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 30px;
+ 
+  
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  
+}
+
+main {
+  padding: 20px;
+  background-color: skyblue;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+background-image: url("C:/Users/FBDA22-006/Desktop/WEBSITE/pics/bg1.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+  font-size:24px;
+  font-family:Helvetica, sans-serif;
+}
+.logo{
+	font-height:40px;
+	color:White;
+}
+header nav ul li a:hover {
+	color:black;
+	
+}
+.featured,
+.news {
+  margin-bottom: 20px;
+}
+
+/*used for movies*/
+
+.movies {
+  margin-bottom: 20px;
+ 
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+}
+
+.movie-card p {
+  margin-top: 5px;
+}
+
+/* for tv shows */
+
+.tv-shows {
+  margin-bottom: 20px;
+}
+
+.tv-show-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 100px;
+}
+
+.tv-show-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width:230px;
+}
+
+.tv-show-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.tv-show-card h3 {
+  margin-top: 10px;
+}
+
+.tv-show-card p {
+  margin-top: 5px;
+}
+
+/* for games */
+
+.games {
+  margin-bottom: 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.game-card h3 {
+  margin-top: 10px;
+}
+
+.game-card p {
+  margin-top: 5px;
+}
+
+/* Collections */
+
+
+.collections {
+  margin-bottom: 20px;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.collection-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.collection-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.collection-card h3 {
+  margin-top: 10px;
+}
+
+.collection-card p {
+  margin-top: 5px;
+}
+
+/* Feedback */
+
+.feedback {
+  margin-bottom: 20px;
+}
+
+.feedback-form div {
+  margin-bottom: 10px;
+}
+
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #555;
+}
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+
+/* Styles for buttons */
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:purple;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #c00;
+}
+
+
+/***movies***/
+
+.lifestyle{
+
+padding: 100px 40px;
+color: white;
+
+}
+
+.attractions{
+
+font-family: "Poppins";
+
+display: flex;
+
+overflow-x: hidden;
+
+}
+
+.attractions .container{
+
+width: 100%;
+
+margin: 40px;
+
+border-radius: 4px;
+
+background: white;
+
+}
+
+
+.img-container img{
+
+width: 100%;
+
+height: 100%;
+
+border-radius: 4px 4px 0px 0px;
+
+}
+
+.content-container{
+
+padding: 10px 20px;
+
+}
+
+.content-container h1{
+
+font-size: 24px;
+
+color: white;
+
+}
+
+.content-container h2{
+
+background: Slateblue;
+
+width: 80px;
+
+font-size: 8px;
+
+padding: 5px;
+
+color: white;
+
+text-align: center;
+
+letter-spacing: 0.08rem;
+
+font-weight: 700;
+
+}
+
+.content-container p{
+
+color: white;
+
+font-weight: 700;
+
+font-size: 12px;
+
+letter-spacing: 0.02rem;
+
+line-height: 1.3rem;
+
+margin-bottom: 30px;
+
+}
+
+@media (max-width: 1040px) {
+
+.attractions {
+
+  flex-direction: column-reverse;
+
+}
+
+.attractions .container {
+
+  width: 800px;
+
+}
+
+@media (max-width: 900px) {
+
+.attractions {
+
+  flex-direction: column-reverse;
+
+}
+
+.attractions .container {
+
+  width:600px ;
+
+  margin-right: 80px;
+
+}
+
+.name{
+	button-spacing:3px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
